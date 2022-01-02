@@ -5,7 +5,7 @@ num = []
 for i in nums:
     i = int(i)
     num.append(i)
-
+num = num.sort()
 if len(num) % 2 == 1:
     median = num[(len(num)+1)//2 - 1]
     if (len(num)-1) % 4 == 0:
