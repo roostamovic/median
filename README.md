@@ -3,5 +3,5 @@
     <img src="median_iqr.jpg" alt="Logo" width="1000" height="500">
   </a>
   <br>
-  <p style="font-size:150px"><b>Script for Calculating Median and Interquartile Range</b></p>
+  <h1><b>Script for Calculating Median and Interquartile Range</b></h1>
 </div>
