@@ -2,7 +2,7 @@
 def calculate_median_iqr(nums):
     nums = sorted(list(nums))
     if len(nums) % 2 == 1:
-        median = nums[(len(nums)+1)//2 - 1]
+        median = nums[len(nums)//2]
         if (len(nums)-1) % 4 == 0:
             Q1 = nums[(len(nums)-1)//4]
             Q3 = nums[(len(nums)-1)//4*3]
